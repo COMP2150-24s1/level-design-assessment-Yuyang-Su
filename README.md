@@ -2,7 +2,8 @@
 ### Name: Yuyang Su
 ### Student number: 47397713
 
-``` ![Place any alt text here](DocImages/<exampleimage.png>)
+```
+![Place any alt text here](DocImages/<exampleimage.png>)
 ```
 
 ![This is the alt text for an image!](DocImages/exampleimage.png)
