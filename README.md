@@ -3,7 +3,8 @@
 ### Student number: 47397713
 
 ## 1. Player Experience (~700 words)
-In this game design task, the theme is 2d platformer set in space. The goal of the game is to collect 3 keys to unlock a door that progresses to the next level. The core experience of the game revolves around elements that challenge the player, leading to a mastery of game mechanics necessary to progress the game.
+In this game design task, the goal is to design 3 sections for a 2d action platformer centered around player experience.
+The goal of the game is to collect 3 keys to unlock a door that progresses to the next level. The core experience of the game revolves around elements that challenge the player, leading to a mastery of game mechanics necessary to progress the game.
 
 ![GenericImg](DocImages/g.png)
 
@@ -38,29 +39,37 @@ Storyboards can be combined when multiple mechanics are introduced within a sing
 
 You should restructure the headings below to match the order they appear in your level.
 
-### 2.1. Acid
+### 2.1. Spikes
 
-### 2.2. Checkpoints
+Spikes are added as an introduction to add a bit of challenge to the first section of the game and get the player accustomed to the controls as they navigate past the spikes.
 
-Checkpoints are a means to save the a sectio
+### 2.2. Health Pickups
+
+Health pickups are introduced past the spike section as players are likely to have taken a bit of damage. The placement of the health pickups in the first section of the game allows players to recognise good item pickups by their blue glow.
 
 ### 2.3. Chompers
 
-### 2.4. Health Pickups
+Introduces the chompers in a relatively confined space as a potential enemy, players will skip over them but keep them in mind as they have no means of protecting themselves at this point in the game.
+
+### 2.4. Passthrough Platforms
+
+Passable platforms are introduced to the player at the end of section 1. Players are forced to experiment with controls due to having no other way forward, but it's also incentivised to go down as there's an item with a blue glow hinting at a beneficial item pickup. I added multiple platforms so that players don't have to worry about missing the key as they fall, they're able to pick it up whenever they'd like.
 
 ### 2.5. Keys
 
-### 2.6. Moving Platforms
+Introduced at the end of section 1. Players are already familiar with blue
 
-### 2.7. Passthrough Platforms
+### 2.6. Checkpoints
 
-### 2.8. Spikes
+### 2.7. Weapon Pickup (Staff)
 
-### 2.9. Spitters
+### 2.8. Acid
 
-### 2.10. Weapon Pickup (Gun)
+### 2.9. Moving Platforms
 
-### 2.11. Weapon Pickup (Staff)
+### 2.10. Spitters
+
+### 2.11. Weapon Pickup (Gun)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
@@ -80,6 +89,10 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
-## Slides Use Acknowledgement
+## Lecture Slide Use Acknowledgement
 
-I used the lecture slides for most of my design principles and information.
+### Tool Used: Lecture Slides
+
+**Nature of Use** Finding relevant design theory.
+
+**Additional Notes:** I used the lecture slides for my design principles and applied them to the game.
