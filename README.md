@@ -24,13 +24,17 @@ Section 2 is when the level introduces hostile enemies and acid. These add incre
 
 There is a small window of relief at the end of section 2, this allows players to rest up before taking on section 3.
 
-Section 3 is where the climax of the dramatic arc resides. This section ramps up the difficulty by placing combinations of all the previous challenges, increasing the feelings of tension with well timed skill jumps, increased number of enemies, and acid pools at the bottom to send the player back to a previous checkpoint if they fail a jump.
+Section 3 is where the climax of the dramatic arc resides. This section ramps up the difficulty by placing combinations of all the previous challenges, increasing the feelings of tension with difficult jumps, increased number of enemies, and acid pools at the bottom to send the player back to a previous checkpoint if they fail a jump.
 There are 2 ways to reach the door, but only one of the ways lead to the final key. If players take the top path they can skip the skill jumps with spitters and obtain the key while falling, but if they take the bottom path the first time they'll see the key but have to backtract to obtain it. The top path contains timed skill jumps for rising action and the fall is the resolution while the bottom path is constant action with the spitters but players will realise that they have to backtract to obtain the final key. There are also healing checkpoints at safe spots in the section for moments of relief from the increased difficulty, I didn't include a checkpoint at the end so that players who take the bottom path can respawn to the checkpoint that splits the 2 paths.
 
 ![end](DocImages/end.png)
 
 ### 1.3. Challenge
 The level is designed with a hill climb design principle, starts safe and gradually ramps the difficulty. Section 1 has basic skill jumps to traverse terrain and avoid spikes. Section 2 has enemies to avoid, and acid as a more dangerous environment hazard than spikes, section 2 isn't designed to be difficult but to allow players to experience new enemy types and hazards before they're used in more challenging scenarios of section 3. Section 3 increases the difficulty and the skill required of the player, this modulated increase in difficulty is used to maintain flow.
+
+![section3](DocImages/section3.png)
+
+This image showcases section 3's difficult skill check. It requires either a well-timed jump (orange) to safely cross the spikes, or an early jump into the top spike and luck to fall back onto the moving platform (red) using the invulnerablity frames to jump past the spikes.
 
 ### 1.4. Exploration
 How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
@@ -40,55 +44,53 @@ There is a bit of environmental storytelling in the level, the staff pickup is c
 Section 3 has split pathing, top path and bottom path. The top is mandatory for obtaining the final key and the bottom is optional to explore and provides challenge to the player but the reward for a frustrating path is frustration as they'll find that the final key can't be reached from the bottom path (but visible). If the player takes the bottom path first, they'll have an idea of where to drop for the final key when they take the top path as the key isn't visible from the top path.
 
 ## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
+The core gameplay involves safely navigating the harsh terrain and avoiding/killing hostile enemies.
 
 ### 2.1. Spikes
 
-Spikes are introduced to add a bit of challenge to the first section of the game, it's not that dangerous so it allows the player to get accustomed to the controls as they navigate past the spikes.
+Spikes are introduced to add a bit of challenge to the first section of the game, it's not that dangerous so it allows the player to get accustomed to the controls as they navigate past the spikes. Touching a spike will damage the player character, takes away 1 heart, and gives some invulnerability frames.
 
 ![spikes](DocImages/spike.png)
 
 ### 2.2. Health Pickups
 
-Health pickups are introduced past the spike section as players are likely to have taken a bit of damage. The placement of the health pickups in the first section of the game allows players to recognise good item pickups by their blue glow.
+Health pickups are introduced midway past the spike section as players are likely to have taken a bit of damage if they failed to jump over a spike pit or if they jumped into one of the upside down spikes. The placement of the health pickups this early in the first section of the level allows players to recognise good item pickups by their blue glow.
 
 ![health](DocImages/health.png)
 
 ### 2.3. Chompers
 
-Introduces the chompers in a relatively confined space as a potential enemy, players will skip over them but keep them in mind as they have no means of protecting themselves at this point in the game.
+Introduces the chompers in a relatively confined space as a potential enemy, players will skip over them as there are spikes that prevent them from coming into contact with chompers but they'll keep them in mind as they pass the them. At this point in the level, players don't have any means of protecting themselves from chompers so not much can be done to these for now.
 
 ![chomp](DocImages/chomp.png)
 
 ### 2.4. Passthrough Platforms
 
-Passable platforms are introduced to the player at the end of section 1. Players are forced to experiment with controls due to having no other way forward, but it's also incentivised to go down as there's an item with a blue glow hinting at a beneficial item pickup. I added multiple platforms so that players don't have to worry about missing the key as they fall, they're able to pick it up whenever they'd like.
+Passable platforms are introduced to the player at the end of section 1. Players are forced to experiment with controls due to having no other way forward, but it's also incentivised to go down as there's an item with a blue glow hinting at a beneficial item pickup. I added multiple platforms so that players don't have to worry about missing the key as they fall, they're able to pick it up whenever they'd like. (IMG under 2.6 Checkpoint)
 
 ### 2.5. Keys
 
-Introduced at the end of section 1. Players are already familiar with blue glows being beneficial so they'll want to pick it up to see what it does.
+Introduced at the end of section 1. Players are already familiar with blue glows being beneficial so they'll want to pick it up and see what it does. (IMG under 2.6 Checkpoint)
 
 ### 2.6. Checkpoints
 
-Introduced at the start of section 2. It's before acid is introduced so players can respawn here instead of the start of section 1, a safe zone to skip past content.
+Introduced at the start of section 2. It's added before acid is introduced so players can respawn here instead of the start of section 1 if they fall into acid. It signifies a safe zone and skips past content after revelant skill checks are passed.
 
 ![check](DocImages/check.png)
 
 ### 2.7. Weapon Pickup (Staff)
 
-Introduced past 2 hostile chompers, players can wack them now. The staff is a neccessary item to break an upcoming wall and unlock progression.
+Introduced past 2 hostile chompers, players can wack things now. The staff is a neccessary item to break an upcoming wall and unlock progression. Breaking the wall unlocks a room with a mechanism; pushing the box onto the plate moves the platform.
 
-![staff](DocImages/box.png)
+![box](DocImages/box.png)
 
 ### 2.8. Acid
 
-Introduced mid section 2, more dangerous than spikes and must be traversed by moving platform.
+Introduced mid section 2, more dangerous than spikes and must be traversed by jumping onto moving platforms, or if there is terrain to step on. (IMG under 2.9 Moving Platforms)
 
 ### 2.9. Moving Platforms
 
-Moving platforms are introduced mid section 2 to help players get accross pools of acid. There is a basic skill check here. Jump, Jump, Crouch. I made this platform faster than the others because the pool's length is longer, and it's only one platform travelling a straight line from start to end.
+Moving platforms are introduced mid section 2 to help players get accross pools of acid. There is a basic skill check here. Jump, Jump, Crouch. This platform is faster than the others because the pool's length is longer, and it's only one platform travelling a straight line from start to end - making it faster adds a bit of challenge and creates a QTE (quick time event) with the skil check here while reducing the amount of time a player waits if they failed the jump and fell into acid.
 
 ![acid](DocImages/acid.png)
 
@@ -96,31 +98,27 @@ Moving platforms are introduced mid section 2 to help players get accross pools 
 
 Introduced at the start of section 3. They spit at the player character with a long distance attack, lets the player know that long distance attacks are present in the game.
 
-![acid2](DocImages/acid2.png)
-
 ### 2.11. Weapon Pickup (Gun)
 
-Introduced after the first spitter, a gun can attack over a long distance. It will help against the many enemies in section 3.
+Introduced after the first spitter, a gun can attack over a long distance. It will help against the many enemies present in section 3.
 
-![section3](DocImages/section 3.png)
+![acid2](DocImages/acid2.png)
 
 ## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
 
 ### 3.1. Molecule Diagram
 
-### 3.2. Level Map – Section 1
+![molecule](DocImages/molecule.png)
 
-### 3.3. Level Map – Section 2
+### 3.2. Level Map
 
-### 3.4. Level Map – Section 3
+![map](DocImages/map.png)
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3.
+I didn't really take notes of the iterative design process, as I was designing and testing side by side (which is kind of iterative). I'd design a simple level, and then add obstacles to it. If it worked, I kept it and if it didn't work, I'd change it. Lots of trial and error involved. After I got a working map, I'd iterate on it by add hostile enemies/environments to it. Again, there was lots of testing during the during process to see what worked and what didn't.
+The level map itself could be considered the paper prototype, as there was lots of changes I made to the terrain after having a rough idea of the overall shape I wanted for the map. In earlier iterations, it was going to start underground and then end in the surface (climbing up obstacles) and the door would be at the top of the map. That changed to instead starting at the surface and heading down into the caves instead, with the door being at the bottom of the map. It made more sense to introduce passable platforms early-on in the level due to needing it (as a skill check) in later sections, so I chose this design over the first designs.
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
+I drew the maps/diagrams after completing the level design, but I made the level map design, added obstacles, added hostiles, and then polished (iterated) as I played so I didn't make any actual paper prototypes, grey-box maps, etc.
 
 ## Lecture Slide Use Acknowledgement
 
