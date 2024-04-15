@@ -112,7 +112,7 @@ Introduced after the first spitter, a gun can attack over a long distance. It wi
 
 ### 3.2. Level Map
 
-![map](DocImages/map.png)
+![map](DocImages/LevelMap.png)
 
 ## 4. Iterative Design (~400 words)
 I didn't really take notes of the iterative design process, as I was designing and testing side by side (which is kind of iterative). I'd design a simple level, and then add obstacles to it. If it worked, I kept it and if it didn't work, I'd change it. Lots of trial and error involved. After I got a working map, I'd iterate on it by add hostile enemies/environments to it. Again, there was lots of testing during the during process to see what worked and what didn't.
