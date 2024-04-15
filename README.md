@@ -27,6 +27,8 @@ There is a small window of relief at the end of section 2, this allows players t
 Section 3 is where the climax of the dramatic arc resides. This section ramps up the difficulty by placing combinations of all the previous challenges, increasing the feelings of tension with well timed skill jumps, increased number of enemies, and acid pools at the bottom to send the player back to a previous checkpoint if they fail a jump.
 There are 2 ways to reach the door, but only one of the ways lead to the final key. If players take the top path they can skip the skill jumps with spitters and obtain the key while falling, but if they take the bottom path the first time they'll see the key but have to backtract to obtain it. The top path contains timed skill jumps for rising action and the fall is the resolution while the bottom path is constant action with the spitters but players will realise that they have to backtract to obtain the final key. There are also healing checkpoints at safe spots in the section for moments of relief from the increased difficulty, I didn't include a checkpoint at the end so that players who take the bottom path can respawn to the checkpoint that splits the 2 paths.
 
+![end](DocImages/end.png)
+
 ### 1.3. Challenge
 The level is designed with a hill climb design principle, starts safe and gradually ramps the difficulty. Section 1 has basic skill jumps to traverse terrain and avoid spikes. Section 2 has enemies to avoid, and acid as a more dangerous environment hazard than spikes, section 2 isn't designed to be difficult but to allow players to experience new enemy types and hazards before they're used in more challenging scenarios of section 3. Section 3 increases the difficulty and the skill required of the player, this modulated increase in difficulty is used to maintain flow.
 
@@ -52,9 +54,13 @@ Spikes are introduced to add a bit of challenge to the first section of the game
 
 Health pickups are introduced past the spike section as players are likely to have taken a bit of damage. The placement of the health pickups in the first section of the game allows players to recognise good item pickups by their blue glow.
 
+![health](DocImages/health.png)
+
 ### 2.3. Chompers
 
 Introduces the chompers in a relatively confined space as a potential enemy, players will skip over them but keep them in mind as they have no means of protecting themselves at this point in the game.
+
+![chomp](DocImages/chomp.png)
 
 ### 2.4. Passthrough Platforms
 
@@ -68,9 +74,11 @@ Introduced at the end of section 1. Players are already familiar with blue glows
 
 Introduced at the start of section 2. It's before acid is introduced so players can respawn here instead of the start of section 1, a safe zone to skip past content.
 
+![check](DocImages/check.png)
+
 ### 2.7. Weapon Pickup (Staff)
 
-Introduced past 2 hostile chompers, players can wack them now or break an upcoming wall to unlock progression.
+Introduced past 2 hostile chompers, players can wack them now. The staff is a neccessary item to break an upcoming wall and unlock progression.
 
 ![staff](DocImages/box.png)
 
@@ -94,8 +102,7 @@ Introduced at the start of section 3. They spit at the player character with a l
 
 Introduced after the first spitter, a gun can attack over a long distance. It will help against the many enemies in section 3.
 
-![section3](DocImages/section3.png)
-![end](DocImages/end.png)
+![section3](DocImages/section 3.png)
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
